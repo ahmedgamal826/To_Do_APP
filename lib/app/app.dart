@@ -12,10 +12,10 @@ class ToDoApp extends StatelessWidget {
       title: AppStrings.appName,
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: AppColors.primary,
+        backgroundColor: AppColors.background,
         body: Center(
             child: Image.asset(
-          AppImages.on1,
+          AppImages.logo,
         )),
       ),
     );
