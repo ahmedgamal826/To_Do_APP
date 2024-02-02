@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/core/utils/app_assets.dart';
-import 'package:todo_app/core/utils/app_colors.dart';
-import 'package:todo_app/core/utils/app_strings.dart';
+
+import '../models/app_colors.dart';
+import '../models/app_images.dart';
+import '../models/app_strings.dart';
 
 class ToDoApp extends StatelessWidget {
   const ToDoApp({super.key});
