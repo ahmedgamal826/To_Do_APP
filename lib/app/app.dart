@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../models/app_colors.dart';
-import '../models/app_images.dart';
+import 'package:todo_app/features/auth/presentations/screens/splash_screen/splash_screen.dart';
 import '../models/app_strings.dart';
 
 class ToDoApp extends StatelessWidget {
@@ -10,15 +8,8 @@ class ToDoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: AppStrings.appName,
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        backgroundColor: AppColors.background,
-        body: Center(
-            child: Image.asset(
-          AppImages.logo,
-        )),
-      ),
-    );
+        title: AppStrings.appName,
+        debugShowCheckedModeBanner: false,
+        home: SplashScreen());
   }
 }
